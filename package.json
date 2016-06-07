@@ -1,0 +1,26 @@
+{
+  "name": "package-premable",
+  "version": "0.0.0",
+  "description": "Generate a tiny preamble from a package.json.",
+  "keywords": [
+    "json",
+    "es6",
+    "module"
+  ],
+  "homepage": "https://github.com/mbostock/package-premable",
+  "license": "BSD-3-Clause",
+  "author": {
+    "name": "Mike Bostock",
+    "url": "https://bost.ocks.org/mike"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mbostock/package-premable.git"
+  },
+  "bin": {
+    "premable": "./bin/premable"
+  },
+  "scripts": {
+    "postpublish": "git push && git push --tags"
+  }
+}
