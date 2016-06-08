@@ -6,7 +6,7 @@ Generates a minimalist preamble from a package.json. For example, given a packag
 {
   "name": "hello-world",
   "version": "0.0.1",
-  "homepage": "https://example.com/hello-world/",
+  "homepage": "https://example.com/hello-world",
   "author": {
     "name": "Alice Baker",
     "url": "https://example.com/alice"
@@ -14,7 +14,7 @@ Generates a minimalist preamble from a package.json. For example, given a packag
 }
 ```
 
-If you run preamble:
+If you run preamble in the same directory as this package.json:
 
 ```
 preamble
@@ -23,5 +23,5 @@ preamble
 You’ll get the following output:
 
 ```js
-// https://example.com/hello-world/ Version 0.0.1. Copyright 2016 Alice Baker.
+// https://example.com/hello-world Version 0.0.1. Copyright 2016 Alice Baker.
 ```
