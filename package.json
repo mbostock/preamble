@@ -7,7 +7,7 @@
     "es6",
     "module"
   ],
-  "homepage": "https://github.com/mbostock/package-preamble",
+  "homepage": "https://github.com/mbostock/preamble",
   "license": "BSD-3-Clause",
   "author": {
     "name": "Mike Bostock",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mbostock/package-preamble.git"
+    "url": "https://github.com/mbostock/preamble.git"
   },
   "bin": {
     "preamble": "./bin/preamble"
