@@ -1,6 +1,6 @@
 {
   "name": "package-preamble",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generate a tiny preamble from a package.json.",
   "keywords": [
     "json",
