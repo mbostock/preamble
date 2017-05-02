@@ -9,6 +9,6 @@ fs.readFile("package.json", "utf8", function(error, text) {
   process.stdout.write("// " + (json.homepage || json.name)
       + " Version " + json.version + "."
       + " Copyright " + (new Date).getFullYear()
-      + " " + json.author.name + "."
+      + " " + json.author.name + (/\.$/.test(json.author.name) ? "" : ".")
       + os.EOL);
 });
